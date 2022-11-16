@@ -1,0 +1,18 @@
+﻿  ExampleLibrary.cpp
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.cpp(11,1): warning C4273: fib_init: несовместимое связывание dll
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.h(13,33): message : см. предыдущее определение "fib_init"
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.cpp(18,1): warning C4273: fib_next: несовместимое связывание dll
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.h(15,33): message : см. предыдущее определение "fib_next"
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.cpp(35,1): warning C4273: fib_current: несовместимое связывание dll
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.h(17,47): message : см. предыдущее определение "fib_current"
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.cpp(40,1): warning C4273: fib_index: несовместимое связывание dll
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.h(19,41): message : см. предыдущее определение "fib_index"
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.cpp(45,1): warning C4273: say_something: несовместимое связывание dll
+H:\Ops\Ops\ExampleApp\ExampleApp\ExampleLibrary.h(21,33): message : см. предыдущее определение "say_something"
+SomeDll.lib(SomeDll.dll) : error LNK2005: _fib_init уже определен в ExampleLibrary.obj
+SomeDll.lib(SomeDll.dll) : error LNK2005: _fib_next уже определен в ExampleLibrary.obj
+SomeDll.lib(SomeDll.dll) : error LNK2005: _fib_current уже определен в ExampleLibrary.obj
+SomeDll.lib(SomeDll.dll) : error LNK2005: _fib_index уже определен в ExampleLibrary.obj
+SomeDll.lib(SomeDll.dll) : error LNK2005: _say_something уже определен в ExampleLibrary.obj
+     Создается библиотека H:\Ops\Ops\ExampleApp\Debug\ExampleApp.lib и объект H:\Ops\Ops\ExampleApp\Debug\ExampleApp.exp
+H:\Ops\Ops\ExampleApp\Debug\ExampleApp.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более

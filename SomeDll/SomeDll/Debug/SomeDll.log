@@ -1,0 +1,12 @@
+﻿  ExampleLibrary.cpp
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.cpp(12,1): warning C4273: fib_init: несовместимое связывание dll
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.h(13,33): message : см. предыдущее определение "fib_init"
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.cpp(19,1): warning C4273: fib_next: несовместимое связывание dll
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.h(15,33): message : см. предыдущее определение "fib_next"
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.cpp(36,1): warning C4273: fib_current: несовместимое связывание dll
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.h(17,47): message : см. предыдущее определение "fib_current"
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.cpp(41,1): warning C4273: fib_index: несовместимое связывание dll
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.h(19,41): message : см. предыдущее определение "fib_index"
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.cpp(46,1): warning C4273: say_something: несовместимое связывание dll
+H:\Ops\Ops\SomeDll\SomeDll\ExampleLibrary.h(21,33): message : см. предыдущее определение "say_something"
+LINK : fatal error LNK1168: не удается открыть H:\Ops\Ops\SomeDll\Debug\SomeDll.dll для записи
