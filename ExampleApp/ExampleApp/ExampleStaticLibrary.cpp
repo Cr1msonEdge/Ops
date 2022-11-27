@@ -47,6 +47,6 @@ void say_something()
 	{
 		++bigarray[i];
 	}
-	std::cout << "Something." << std::endl;
-	//std::cout << "Anything." << std::endl;
+	std::cout << "something." << std::endl;
+	//std::cout << "anything." << std::endl;
 }
