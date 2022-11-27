@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  dllmain.cpp
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 1 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  TestLib.vcxproj -> H:\Ops\Ops\Injection\x64\Release\TestLib.dll
