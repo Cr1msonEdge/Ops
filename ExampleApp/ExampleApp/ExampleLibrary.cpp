@@ -18,7 +18,7 @@ bool fib_next()
 {
 	if ((UINT_MAX == ind) || (ULLONG_MAX - prev) < curr)  // проверка на переполнение
 	{
-		return false;
+		return false;	
 	}
 
 	if (ind > 0)
@@ -47,6 +47,6 @@ void say_something()
 	{
 		++bigarray[i];
 	}
-	std::cout << "Something." << std::endl;
-	//std::cout << "Anything." << std::endl;
+	std::cout << "something." << std::endl;
+	//std::cout << "anything." << std::endl;
 }
