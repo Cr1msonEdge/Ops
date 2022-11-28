@@ -1,1 +1,2 @@
 H:\Ops\Ops\TargetApp\x64\Release\TargetApp.exe
+D:\Ops\TargetApp\x64\Release\TargetApp.exe

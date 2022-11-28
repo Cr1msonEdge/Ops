@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>H:\Ops\Ops\Injection\x64\Release\TestLib.dll</FullPath>
+      <FullPath>D:\Ops\Injection\x64\Release\TestLib.dll</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

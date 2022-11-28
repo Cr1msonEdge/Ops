@@ -1,13 +1,14 @@
 ﻿#include <iostream>
 #include <Windows.h>	
+#include <cstring>
 
 int main()
 {
 	// путь к нашей библиотеке
-	LPCSTR DllPath = "H:\\Ops\\Ops\\Injection\\Release\\TestLib.dll";
+	LPCSTR DllPath = "D:\\Ops\\ssDll\\x64\\Release\\ssDll.dll";
 
 	// open a handle to target processs
-	HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, 0, 25920);
+	HANDLE hProcess = OpenProcess(PROCESS_ALL_ACCESS, 0, 24512);
 
 	// allocate memory for the dllpath in the target process
 	// length of the path string + null terminator'
